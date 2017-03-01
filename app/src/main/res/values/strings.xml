@@ -1,3 +1,119 @@
 <resources>
     <string name="app_name">Manhattan Tour Guide App</string>
+    <string name="first">name</string>
+    <string name="second">location</string>
+    <string name="third">num</string>
+
+    <string name="category1">Restaurant</string>
+    <string name="category2">Cafe</string>
+    <string name="category3">Museum</string>
+    <string name="category4">Park</string>
+
+    <string name="restaurant_name_1">"Jean-Georges"</string>
+    <string name="restaurant_location_1">"Trump International Hotel and Tower New York"</string>
+    <string name="restaurant_num_1">2122993900</string>
+
+    <string name="restaurant_name_2">"Gotham Bar and Grill"</string>
+    <string name="restaurant_location_2">"12 E 12th St, New York, NY 10003"</string>
+    <string name="restaurant_num_2">2126204020</string>
+
+    <string name="restaurant_name_3">"Gramercy Tavern"</string>
+    <string name="restaurant_location_3">"42 E 20th St, New York, NY 10003"</string>
+    <string name="restaurant_num_3">2124770777</string>
+
+    <string name="restaurant_name_4">"Babbo"</string>
+    <string name="restaurant_location_4">"110 Waverly Pl, New York, NY 10011"</string>
+    <string name="restaurant_num_4">2122213800</string>
+
+    <string name="restaurant_name_5">"Carmine's"</string>
+    <string name="restaurant_location_5">"Trump International Hotel and Tower New York"</string>
+    <string name="restaurant_num_5">2122993900</string>
+
+    <string name="restaurant_name_6">"Blue Ribbon Sushi"</string>
+    <string name="restaurant_location_6">"119 Sullivan St, New York, NY 10012"</string>
+    <string name="restaurant_num_6">2123430404</string>
+
+    <string name="restaurant_name_7">"ABC Kitchen"</string>
+    <string name="restaurant_location_7">"35 E 18th St, New York, NY 10003"</string>
+    <string name="restaurant_num_7">2124755829</string>
+
+    <string name="restaurant_name_8">"Tamarind Tribeca"</string>
+    <string name="restaurant_location_8">"99 Hudson St, New York, NY 10013"</string>
+    <string name="restaurant_num_8">2127759000</string>
+
+    <string name="cafe_name_1">"Cafe Carlyle"</string>
+    <string name="cafe_location_1">"The Carlyle, A Rosewood Hotel, 35 E 76th St, New York"</string>
+    <string name="cafe_num_1">2127441600</string>
+
+    <string name="cafe_name_2">"Mamajuana Cafe"</string>
+    <string name="cafe_location_2">"247 Dyckman St, New York"</string>
+    <string name="cafe_num_2">2123040140</string>
+
+    <string name="cafe_name_3">"Piccolo Cafe"</string>
+    <string name="cafe_location_3">"313 Amsterdam Ave, New York"</string>
+    <string name="cafe_num_3">2128730962</string>
+
+    <string name="cafe_name_4">"Macaron Cafe"</string>
+    <string name="cafe_location_4">"4 E 59th St, New York, NY 10022"</string>
+    <string name="cafe_num_4">2124862470</string>
+
+    <string name="cafe_name_5">"Cafe Bene"</string>
+    <string name="cafe_location_5">"9 Edward M Morgan Pl, New York, NY 10032"</string>
+    <string name="cafe_num_5">467915518</string>
+
+    <string name="cafe_name_6">"Europa Cafe"</string>
+    <string name="cafe_location_6">"205 W 57th St # 2, New York, NY 10019"</string>
+    <string name="cafe_num_6">2129774030</string>
+
+    <string name="cafe_name_7">"Café Habana"</string>
+    <string name="cafe_location_7">"17 Prince St, New York, NY 10012"</string>
+    <string name="cafe_num_7">2126252001</string>
+
+    <string name="cafe_name_8">"Joe Pro Shop and Headquarters"</string>
+    <string name="cafe_location_8">" 131 W 21st St, New York, NY 10011"</string>
+    <string name="cafe_num_8">2129247400</string>
+
+    <string name="museum_name_1">"The Museum of Modern Art"</string>
+    <string name="museum_location_1">"11 W 53rd St, New York, NY 10019"</string>
+    <string name="museum_num_1">2127089400</string>
+
+    <string name="museum_name_2">"The Metropolitan Museum of Art"</string>
+    <string name="museum_location_2">"5th Ave, New York, NY 10028"</string>
+    <string name="museum_num_2">2125357710</string>
+
+    <string name="museum_name_3">"American Museum of Natural History"</string>
+    <string name="museum_location_3">"Central Park West and 79th St, New York, NY 10024"</string>
+    <string name="museum_num_3">2127695100</string>
+
+    <string name="museum_name_4">"Solomon R. Guggenheim Museum"</string>
+    <string name="museum_location_4">"1071 5th Ave, New York, NY 10128"</string>
+    <string name="museum_num_4">2124233500</string>
+
+    <string name="museum_name_5">"Whitney Museum of American Art"</string>
+    <string name="museum_location_5">"99 Gansevoort St, New York, NY 10014"</string>
+    <string name="museum_num_5">2125703600</string>
+
+    <string name="museum_name_6">"Museum of Sex"</string>
+    <string name="museum_location_6">"233 5th Ave, New York, NY 10016"</string>
+    <string name="museum_num_6">2126896337</string>
+
+    <string name="museum_name_7">"The Morgan Library and Museum"</string>
+    <string name="museum_location_7">"225 Madison Ave, New York, NY 10016"</string>
+    <string name="museum_num_7">2126850008</string>
+
+    <string name="park_name_1">"Central park"</string>
+    <string name="park_location_1">"New York, NY 10024"</string>
+
+    <string name="park_name_2">"Bryant park"</string>
+    <string name="park_location_2">"New York, NY 10018"</string>
+
+    <string name="park_name_3">"Highline park"</string>
+    <string name="park_location_3">"New York, NY 10011"</string>
+
+    <string name="park_name_4">"Greeley Square"</string>
+    <string name="park_location_4">"North Broadway, New York, NY 10001"</string>
+
+    <string name="park_name_5">"Washington Square Park"</string>
+    <string name="park_location_5">"New York, NY 10012"</string>
+
 </resources>

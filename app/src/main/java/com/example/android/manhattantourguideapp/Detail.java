@@ -6,26 +6,26 @@ package com.example.android.manhattantourguideapp;
 
 public class Detail {
 
-    private String dname;
-    private String dlocation;
+    private int dname;
+    private int dlocation;
     private int dnum;
     private int mImageResourceId;
 
-    public Detail(String name,String location,int imageResourceId,int num){
+    public Detail(int name,int location,int imageResourceId,int num){
         dname = name;
         dlocation = location;
         dnum = num;
         mImageResourceId = imageResourceId;
     }
 
-    public Detail(String name, String location,int imageResourceId){
+    public Detail(int name, int location,int imageResourceId){
         dname = name;
         dlocation = location;
         mImageResourceId = imageResourceId;
     }
-    public String getdname(){return dname;}
+    public int getdname(){return dname;}
 
-    public String getdlocation(){return dlocation;}
+    public int getdlocation(){return dlocation;}
 
     public int getImageResourceId(){return mImageResourceId;}
     public int getdnum(){return dnum;}

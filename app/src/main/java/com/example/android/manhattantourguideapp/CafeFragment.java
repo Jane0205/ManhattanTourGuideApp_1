@@ -25,14 +25,14 @@ public class CafeFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.detail_list,container,false);
 
         final ArrayList<Detail> details = new ArrayList<Detail>();
-        details.add(new Detail("Café Carlyle", "The Carlyle, A Rosewood Hotel, 35 E 76th St, New York", R.drawable.cafe, 2127441600));
-        details.add(new Detail("Mamajuana Cafe", "247 Dyckman St, New York", R.drawable.cafe,2123040140));
-        details.add(new Detail("Piccolo Cafe", "313 Amsterdam Ave, New York", R.drawable.cafe, 2128730962));
-        details.add(new Detail("Macaron Cafe", "44 E 59th St, New York, NY 10022", R.drawable.cafe, 2124862470));
-        details.add(new Detail("Caffe Bene", "9 Edward M Morgan Pl, New York, NY 10032", R.drawable.cafe,467915518));
-        details.add(new Detail("Europa Cafe", "205 W 57th St # 2, New York, NY 10019", R.drawable.cafe, 2129774030));
-        details.add(new Detail("Café Habana", "17 Prince St, New York, NY 10012", R.drawable.cafe, 2126252001));
-        details.add(new Detail("Joe Pro Shop & Headquarters", " 131 W 21st St, New York, NY 10011", R.drawable.cafe,2129247400));
+        details.add(new Detail(R.string.cafe_name_2, R.string.cafe_location_2,R.drawable.cafe,R.string.cafe_num_2));
+        details.add(new Detail(R.string.cafe_name_3, R.string.cafe_location_3, R.drawable.cafe,R.string.cafe_num_3));
+        details.add(new Detail(R.string.cafe_name_4, R.string.cafe_location_4, R.drawable.cafe,R.string.cafe_num_4));
+        details.add(new Detail(R.string.cafe_name_5, R.string.cafe_location_5, R.drawable.cafe,R.string.cafe_num_5));
+        details.add(new Detail(R.string.cafe_name_6, R.string.cafe_location_6, R.drawable.cafe,R.string.cafe_num_6));
+        details.add(new Detail(R.string.cafe_name_7, R.string.cafe_location_7, R.drawable.cafe,R.string.cafe_num_7));
+        details.add(new Detail(R.string.cafe_name_8, R.string.cafe_location_8, R.drawable.cafe,R.string.cafe_num_8));
+
 
         DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.colorAccent);
 
