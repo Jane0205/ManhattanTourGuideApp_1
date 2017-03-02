@@ -4,6 +4,8 @@
     <string name="second">location</string>
     <string name="third">num</string>
 
+    <string name="setting">Setting</string>
+
     <string name="category1">Restaurant</string>
     <string name="category2">Cafe</string>
     <string name="category3">Museum</string>
