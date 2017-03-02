@@ -35,8 +35,8 @@ public class CafeFragment extends Fragment {
         details.add(new Detail(R.string.cafe_name_4, R.string.cafe_location_4, R.drawable.cafe,R.string.cafe_num_4));
         details.add(new Detail(R.string.cafe_name_5, R.string.cafe_location_5, R.drawable.cafe,R.string.cafe_num_5));
         details.add(new Detail(R.string.cafe_name_6, R.string.cafe_location_6, R.drawable.cafe,R.string.cafe_num_6));
-        details.add(new Detail(R.string.cafe_name_7, R.string.cafe_location_7, R.drawable.cafe,R.string.cafe_num_7));
         details.add(new Detail(R.string.cafe_name_8, R.string.cafe_location_8, R.drawable.cafe,R.string.cafe_num_8));
+        details.add(new Detail(R.string.cafe_name_7, R.string.cafe_location_7, R.drawable.cafe,R.string.cafe_num_7));
 
         DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.cafe);
 
