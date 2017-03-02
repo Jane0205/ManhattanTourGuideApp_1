@@ -34,12 +34,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
@@ -48,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
@@ -71,10 +73,6 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
 
-        @Override
-        public int getCount() {
-            return 4;
-        }
 
         @Override
         public CharSequence getPageTitle(int position) {
@@ -91,5 +89,10 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
 
+
+        @Override
+        public int getCount() {
+            return 4;
+        }
     }
 }
