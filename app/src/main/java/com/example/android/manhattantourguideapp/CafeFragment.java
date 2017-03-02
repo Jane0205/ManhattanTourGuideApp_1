@@ -15,6 +15,7 @@ import java.util.ArrayList;
  */
 
 public class CafeFragment extends Fragment {
+
     public CafeFragment(){
     }
 
@@ -22,6 +23,8 @@ public class CafeFragment extends Fragment {
         CafeFragment fragment = new CafeFragment();
         return fragment;
     }
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
