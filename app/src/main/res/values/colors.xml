@@ -12,4 +12,5 @@
     <color name="header">#483D8B</color>
     <color name="back">#2F4F4F	</color>
     <color name="headtext">#E6E6FA	</color>
+    <color name="textcolor">#000000</color>
 </resources>
