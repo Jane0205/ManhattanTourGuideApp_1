@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="Restaurant">	#FFA07A</color>
+    <color name="cafe">	#4169E1	</color>
+    <color name="museum">	#FFC0CB</color>
+    <color name="park">	#00FF7F</color>
+
+    <color name="header">#483D8B</color>
+    <color name="back">#2F4F4F	</color>
+    <color name="headtext">#E6E6FA	</color>
 </resources>

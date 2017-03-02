@@ -1,11 +1,12 @@
 package com.example.android.manhattantourguideapp;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+
 
 import java.util.ArrayList;
 
@@ -14,14 +15,18 @@ import java.util.ArrayList;
  */
 
 public class CafeFragment extends Fragment {
+    public CafeFragment(){
+    }
 
-    public static RestaurantFragment newInstance(){
-        RestaurantFragment fragment = new RestaurantFragment();
+    public static CafeFragment newInstance(){
+        CafeFragment fragment = new CafeFragment();
         return fragment;
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState){
+
         View rootView = inflater.inflate(R.layout.detail_list,container,false);
 
         final ArrayList<Detail> details = new ArrayList<Detail>();
@@ -33,8 +38,7 @@ public class CafeFragment extends Fragment {
         details.add(new Detail(R.string.cafe_name_7, R.string.cafe_location_7, R.drawable.cafe,R.string.cafe_num_7));
         details.add(new Detail(R.string.cafe_name_8, R.string.cafe_location_8, R.drawable.cafe,R.string.cafe_num_8));
 
-
-        DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.colorAccent);
+        DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.cafe);
 
         ListView listView = (ListView)rootView.findViewById(R.id.detail_list);
 

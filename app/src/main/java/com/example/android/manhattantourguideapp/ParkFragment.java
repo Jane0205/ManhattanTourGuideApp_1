@@ -9,8 +9,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-import static com.example.android.manhattantourguideapp.R.drawable.park;
-import static com.example.android.manhattantourguideapp.R.id.location;
 
 /**
  * Created by 재은 on 2017-02-28.
@@ -18,8 +16,10 @@ import static com.example.android.manhattantourguideapp.R.id.location;
 
 public class ParkFragment extends Fragment {
 
-    public static RestaurantFragment newInstance(){
-        RestaurantFragment fragment = new RestaurantFragment();
+    public ParkFragment(){}
+
+    public static ParkFragment newInstance(){
+        ParkFragment fragment = new ParkFragment();
         return fragment;
     }
 
@@ -34,7 +34,7 @@ public class ParkFragment extends Fragment {
         details.add(new Detail(R.string.park_name_4,R.string.park_location_4,R.drawable.park));
         details.add(new Detail(R.string.park_name_5,R.string.park_location_5,R.drawable.park));
 
-        DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.colorAccent);
+        DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.park);
 
         ListView listView = (ListView)rootView.findViewById(R.id.detail_list);
 

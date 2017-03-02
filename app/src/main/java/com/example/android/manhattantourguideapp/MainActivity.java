@@ -1,6 +1,6 @@
 package com.example.android.manhattantourguideapp;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,8 +10,6 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import static android.R.attr.fragment;
 
 public class MainActivity extends AppCompatActivity {
 

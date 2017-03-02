@@ -1,6 +1,6 @@
 package com.example.android.manhattantourguideapp;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,8 +15,10 @@ import java.util.ArrayList;
 
 public class MuseumFragment extends Fragment {
 
-    public static RestaurantFragment newInstance(){
-        RestaurantFragment fragment = new RestaurantFragment();
+    public MuseumFragment(){}
+
+    public static MuseumFragment newInstance(){
+        MuseumFragment fragment = new MuseumFragment();
         return fragment;
     }
 
@@ -34,7 +36,7 @@ public class MuseumFragment extends Fragment {
         details.add(new Detail(R.string.museum_name_7, R.string.museum_location_7, R.drawable.museum, R.string.museum_num_7));
 
 
-        DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.colorAccent);
+        DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.museum);
 
         ListView listView = (ListView)rootView.findViewById(R.id.detail_list);
 
