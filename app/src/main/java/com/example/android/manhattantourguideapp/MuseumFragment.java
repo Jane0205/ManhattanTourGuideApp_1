@@ -17,6 +17,7 @@ public class MuseumFragment extends Fragment {
 
     public MuseumFragment(){}
 
+
     public static MuseumFragment newInstance(){
         MuseumFragment fragment = new MuseumFragment();
         return fragment;

@@ -30,14 +30,5 @@ public class Detail {
     public int getImageResourceId(){return mImageResourceId;}
     public int getdnum(){return dnum;}
 
-    @Override
-    public String toString() {
-        return "Detail{" +
-                "dname='" + dname + '\'' +
-                ", dlocation='" + dlocation + '\'' +
-                ", dnum=" + dnum +
-                ", mImageResourceId=" + mImageResourceId +
-                '}';
-    }
 
 }
