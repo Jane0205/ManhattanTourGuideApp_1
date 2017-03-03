@@ -118,4 +118,6 @@
     <string name="park_name_5">"Washington Square Park"</string>
     <string name="park_location_5">"New York, NY 10012"</string>
 
+    <string name="park_num">""</string>
+
 </resources>
