@@ -29,10 +29,10 @@ public class ParkFragment extends Fragment {
 
         final ArrayList<Detail> details = new ArrayList<Detail>();
         details.add(new Detail(R.string.park_name_1,R.string.park_location_1,R.drawable.park_1,R.string.park_num));
-        details.add(new Detail(R.string.park_name_2,R.string.park_location_2,R.drawable.park,R.string.park_num));
-        details.add(new Detail(R.string.park_name_3,R.string.park_location_3,R.drawable.park,R.string.park_num));
-        details.add(new Detail(R.string.park_name_4,R.string.park_location_4,R.drawable.park,R.string.park_num));
-        details.add(new Detail(R.string.park_name_5,R.string.park_location_5,R.drawable.park,R.string.park_num));
+        details.add(new Detail(R.string.park_name_2,R.string.park_location_2,R.drawable.park_2,R.string.park_num));
+        details.add(new Detail(R.string.park_name_3,R.string.park_location_3,R.drawable.park_3,R.string.park_num));
+        details.add(new Detail(R.string.park_name_4,R.string.park_location_4,R.drawable.park_4,R.string.park_num));
+        details.add(new Detail(R.string.park_name_5,R.string.park_location_5,R.drawable.park_5,R.string.park_num));
 
         DetailAdapter adapter = new DetailAdapter(getActivity(),details,R.color.park);
 
