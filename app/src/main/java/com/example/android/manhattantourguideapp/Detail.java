@@ -18,11 +18,6 @@ public class Detail {
         mImageResourceId = imageResourceId;
     }
 
-    public Detail(int name, int location,int imageResourceId){
-        dname = name;
-        dlocation = location;
-        mImageResourceId = imageResourceId;
-    }
     public int getdname(){return dname;}
 
     public int getdlocation(){return dlocation;}
